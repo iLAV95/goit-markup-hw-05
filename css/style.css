@@ -410,7 +410,7 @@ li.portfolio-item{
     border: 1px solid #e7e9fc;
     padding: 32px 16px;
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 
@@ -435,7 +435,7 @@ li.portfolio-item{
     opacity: 0;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    z-index: 2;
+    /* z-index: 2; */
     margin: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -600,6 +600,7 @@ footer .contacts-info-link:focus {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
     /* opacity: 0;
     visibility: hidden;
     pointer-events: none; */
