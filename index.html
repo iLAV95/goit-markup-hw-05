@@ -59,7 +59,9 @@
       <section id="Studio" class="studio">
         <div class="container container-main-studio">
           <h1 class="h-one">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- кінець 1 секції Studio -->
@@ -495,9 +497,9 @@
       </div>
     </footer>
     <!-- модальне вікно -->
-    <div class="modal-screen">
+    <div class="modal-screen" data-modal>
       <div class="modal-container">
-        <button class="modal-btn-close" type="button">
+        <button class="modal-btn-close" type="button" data-modal-close>
           <svg class="modal-btn-close-svg" width="8" height="8">
             <use
               class="modal-btn-close-use"
@@ -579,5 +581,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
